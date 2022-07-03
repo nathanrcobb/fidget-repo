@@ -18,21 +18,24 @@ html {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(2vh + 2vmin);
   color: #797979;
 }
 
 .App-logo {
-  min-height: 10vh;
-  max-height: 15vh;
+  min-height: 5vh;
+  max-height: 10vh;
   pointer-events: none;
+}
+
+.App-spinner {
+  min-height: 5vh;
+  max-height: 80vh;
+  left: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-spinner {
-    min-height: 20vh;
-    max-height: 80vh;
-    left: center;
     animation: App-logo-spin infinite 2s linear;
   }
 }
