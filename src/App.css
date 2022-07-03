@@ -1,5 +1,10 @@
+/* React App preconfigured styling */
 .App {
   text-align: center;
+}
+
+.App-title {
+  color:#282c34;
 }
 
 .App-logo {
@@ -22,17 +27,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 40vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.status-message {
-  padding-top:30%;
 }
 
 .App-link {
@@ -46,4 +47,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Custom styling */
+.App-footer {
+  color:#282c34;
 }
