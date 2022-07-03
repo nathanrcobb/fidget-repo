@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
+
+import logoSpinner from './logo-spinner.svg';
+import logoDatabase from './logo-database.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+    <h1>Fidget-Repo</h1>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={logoDatabase} className="App-logo App-database" alt="database" /> 
+        <img src={logoSpinner} className="App-logo App-spinner" alt="spinner" />
+        <h3 className="status-message">Coming soon... ish.....</h3>
       </header>
     </div>
   );
