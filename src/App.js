@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <img src={logoDatabase} className="App-logo App-database" alt="database" /> 
         <img src={logoSpinner} className="App-logo App-spinner" alt="spinner" />
-        <h3 className="status-message">Coming soon... ish.....</h3>
+        <h3 className="status-message">Coming soon...</h3>
       </header>
     </div>
   );
