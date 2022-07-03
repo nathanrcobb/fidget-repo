@@ -1,16 +1,20 @@
 import React from 'react';
 
-import logoSpinner from './logo-spinner.svg';
-import logoDatabase from './logo-database.svg';
+import spinner from './spinner.svg';
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="App-title">The Fidget Repo</h1>
+      <div className="App-title">
+          <img src={logo} className="App-logo" alt="database" />
+          <h2>The Fidget Repo</h2>
+      </div>
       <header className="App-header">
-        <img src={logoDatabase} className="App-logo App-database" alt="database" /> 
-        <img src={logoSpinner} className="App-logo App-spinner" alt="spinner" />
+        <div>
+          <img src={spinner} className="App-spinner" alt="spinner" />
+        </div>
       </header>
       <h2 className="App-footer">Coming soon...</h2>
     </div>

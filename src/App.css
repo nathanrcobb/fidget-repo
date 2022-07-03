@@ -1,33 +1,45 @@
 /* React App preconfigured styling */
-.App {
-  text-align: center;
+html {
+  background-color: black;
 }
 
-.App-title {
-  color:#282c34;
+.App {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color:black;
+}
+
+.App-title, .App-footer {
+  min-height: 10vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #797979;
 }
 
 .App-logo {
-  height: 40vmin;
+  min-height: 10vh;
+  max-height: 15vh;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-spinner {
-    position:absolute;
-    left:center;
-    height:20%;
-    animation: App-logo-spin infinite 1s linear;
-  }
-  .App-database {
-    position:absolute;
-    left:center;
+    min-height: 20vh;
+    max-height: 80vh;
+    left: center;
+    animation: App-logo-spin infinite 2s linear;
   }
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 30vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,9 +59,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-/* Custom styling */
-.App-footer {
-  color:#282c34;
 }
