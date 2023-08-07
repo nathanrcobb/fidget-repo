@@ -2,6 +2,8 @@
 
 A one-stop repository for all types of premium fidget items. A passion project & work in progress for a hobby of mine.
 
+This was previously a Wordpress website with many blog posts of my own and some that I curated from other respected members of the fidget community. My hope is to port all of that over to a central location in this new website.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
