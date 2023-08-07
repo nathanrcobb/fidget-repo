@@ -1,6 +1,6 @@
 # fidget-repo
 
-A one-stop repository for all types of premium fidget items
+A one-stop repository for all types of premium fidget items. A passion project & work in progress for a hobby of mine.
 
 # Getting Started with Create React App
 
